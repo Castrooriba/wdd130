@@ -1,0 +1,94 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Font1&family=Font2&display=swap');
+
+/* Define CSS variables */
+:root {
+  --primary-color: #336699;
+  --secondary-color: #FF9900;
+  --text-color: #333333;
+}
+
+/* General Styles */
+body {
+  font-family: 'Font1', sans-serif;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: var(--primary-color);
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+/* Social Media Links */
+footer a {
+  text-decoration: none;
+}
+
+/* Page Width */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-left: 550px;
+}
+
+/* Hero Container */
+.hero {
+  position:relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+/* Absolute Positioning for h1 and article */
+h1 {
+  position: absolute;
+  top: 50px;
+  left: 400px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+article {
+  position: absolute;
+  top: 300px;
+  left: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+article img {
+  float: right;
+  margin-left: 20px;
+  width: 150px;
+  height: auto;
+}
+
+/* Background Colors and Opacity for the Article */
+/* Add your specific background color and opacity values */
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Additional Styles */
+/* Add your additional styles based on your website planning document */
